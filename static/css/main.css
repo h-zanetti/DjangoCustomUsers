@@ -1,0 +1,52 @@
+/* Global */
+  /* Links */
+    .mylink {
+      color: #d2d2d2;
+      text-decoration: none;
+    }
+  
+      .mylink.explicit {
+        color: #d2d2d2;
+        text-decoration: underline;
+      }
+  
+        .mylink.explicit:hover {
+          color: #007f90;
+        }
+    /* Buttons */
+  
+
+  /* Navbar */
+  .navbar {
+    background-color: rgba(52,58,64, .5);
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+    .navbar-brand:hover {
+      color: white;
+    }
+  
+  
+  .nav-item  a {
+    color: white;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .nav-item  a:hover {
+    border-bottom: 1px solid;
+    transition: .5s;
+  }
+  
+  
+  /* Footer */
+  footer {
+      color: #d2d2d2;
+  }
+  
+    .footer a.text-light:hover {
+      color: #007f90;
+    }
+  

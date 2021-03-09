@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+{% load bootstrap5 %}
+
+{% block content %}
+
+<div class="container mb-4">
+  <div class="row d-flex justify-content-center">
+    <div class="col-9 border rounded shadow-sm">
+      <form method="post" class="p-3">
+          {% csrf_token %}
+          {% bootstrap_form form %}
+          {% buttons %}
+            <input class="btn btn-primary" type="submit" value="Enviar" style="margin-top: 15px">
+          {% endbuttons %}
+      </form>
+    </div> 
+  </div> 
+</div>
+
+{% endblock %}
